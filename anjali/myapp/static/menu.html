@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU - JAKK RESTAURANT</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0e5d8, #d9c9b5);
+            color: #333;
+        }
+
+        header {
+            background-color: #340202;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            background-color: #360311;
+            color: #f7f1e3;
+        }
+
+        .menu-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto 100px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu-item {
+            width: 28%;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #8e44ad;
+        }
+
+        .menu-item p {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #350304;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #8e44ad;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>OUR MENU</h1>
+        <nav>
+            <ul>
+                <li><a href="food.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 103410.png" alt="biryani">
+            <h3>BIRYANI</h3>
+            <p>A vibrant rice dish with mixed vegetables, chicken or mutton, and an egg.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 103557.png" alt="NON VEG MEALS">
+            <h3>NON VEG MEALS</h3>
+            <p>Rice with chicken, mutton, fish gravy with rotti and chicken starters.</p>
+        </div>
+        <div class="menu-item">
+            <img src="burger.png" alt="Naan">
+            <h3>BURGER</h3>
+            <p>Soft and fluffy buns stuffed with chicken and cheese.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 104021.png" alt="chicken65">
+            <h3>CHICKEN 65</h3>
+            <p>Fresh chicken fried with Indian spices for a crispy delight.</p>
+        </div>
+        <div class="menu-item">
+            <img src="grill.png" alt="chickenlollipop">
+            <h3>GRILL CHICKEN</h3>
+            <p>Juicy chicken with a tangy Korean-inspired sauce.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 104438.png" alt="butterchicken">
+            <h3>BUTTER CHICKEN</h3>
+            <p>Rich, creamy, and flavorful chicken curry in buttery sauce.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 104607.png" alt="mutton">
+            <h3>MUTTON GRAVY</h3>
+            <p>Mouth-watering mutton curry with aromatic Indian spices.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 104800.png" alt="prawnthokku">
+            <h3>PRAWNTHOKKU</h3>
+            <p>Succulent prawns cooked in a tangy, spicy Indian sauce.</p>
+        </div>
+        <div class="menu-item">
+            <img src="soda.jpg" alt="crabsoup">
+            <h3>SOFT DRINK</h3>
+            <p>A refreshing and tasty soft drinks for digestion.</p>
+        </div>
+        <div class="menu-item">
+            <img src="Screenshot 2024-12-13 105014.png" alt="attukalsoup">
+            <h3>ATTUKAL SOUP</h3>
+            <p>A hearty and flavorful bone soup for a warm beginning.</p>
+        </div>
+        <div class="menu-item">
+            <img src="ice.png" alt="elaneerpayasam">
+            <h3>ICECREAM</h3>
+            <p>A cold dessert for fulfilling your delicious meal.</p>
+        </div>
+        <div class="menu-item">
+            <img src="fries.png" alt="jigarthanda">
+            <h3>FRENCH FRIES</h3>
+            <p>A hot and salty snacks.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Designed by ANJALI.K </p>
+    </footer>
+</body>
+
+</html>

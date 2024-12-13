@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMINISTRATION - JAKK RESTAURANT</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7c9dcf;
+            color: #333;
+        }
+
+        header {
+            background-color: #38040e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-weight: 500;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            color: #ffab40;
+        }
+
+        .admin-container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .admin-card {
+            width: 240px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .admin-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .admin-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .admin-card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+            color: #283593;
+        }
+
+        .admin-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #2d0202;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #3f51b5;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>ADMINISTRATION TEAM</h1>
+    <nav>
+        <ul>
+            <li><a href="food.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="administration.html">ADMINISTRATION</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="admin-container">
+    <div class="admin-card">
+        <img src="anjali.png" alt="Owner">
+        <h3>ANJALI</h3>
+        <p>Owner</p>
+        <p>Visionary leader ensuring the success of JAKK Restaurant.</p>
+    </div>
+    <div class="admin-card">
+        <img src="Screenshot 2024-12-13 105905.png" alt="Executive Chef">
+        <h3>JOSEPH VIJAY</h3>
+        <p>Executive Chef</p>
+        <p>Mastermind behind our exquisite menu and culinary excellence.</p>
+    </div>
+    <div class="admin-card">
+        <img src="kabilan.png" alt="Operations Manager">
+        <h3>KABILAN</h3>
+        <p>Operations Manager</p>
+        <p>Ensures smooth day-to-day operations and exceptional service.</p>
+    </div>
+    <div class="admin-card">
+        <img src="jayanthi.png" alt="Customer Experience Manager">
+        <h3>JAYANTHI</h3>
+        <p>Customer Experience Manager</p>
+        <p>Focuses on guest satisfaction and memorable dining experiences.</p>
+    </div>
+    <div class="admin-card">
+        <img src="kumaran.png" alt="Beverage Specialist">
+        <h3>KUMARAN</h3>
+        <p>Beverage Specialist</p>
+        <p>Crafts refreshing and unique drinks to complement every meal.</p>
+    </div>
+    <div class="admin-card">
+        <img src="keerthy.png" alt="Front Desk Manager">
+        <h3>KEERTHY SURESH</h3>
+        <p>Front Desk Manager</p>
+        <p>Welcomes guests and manages reservations with a smile.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Designed by ANJALI.K</p>
+</footer>
+</body>
+</html>
